@@ -11,6 +11,10 @@
 
             management.ReadStockJsonFile(stockFilePath);
             management.ReadCustomerJsonFile(customerFilePath);
+            management.BuyStock("Google");
+            management.SellStock("Apple");
+            management.WriteToStockJsonFile(stockFilePath);
+            management.WriteToCustomerJsonFile(customerFilePath);
         }
     }
 }
